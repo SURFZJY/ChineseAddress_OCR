@@ -4,9 +4,12 @@ Photographing Chinese-Address OCR implemented using CTPN+CTC+Address Correction.
   
 This is a project of the 2018 Deecamp 25th group (DRPRG). Thanks to my team members!  
 这个是 2018年 Deecamp 25组 (深度受限抠图小组) 的项目，非常非常的感谢每一位队友！  
+
+My contribution: CTPN detection + Wechat app
+我的贡献：CTPN检测部分 + 微信小程序
   
 Our Demo: https://www.bilibili.com/video/av30081208  
-Our Wechat Program (微信小程序)： OCRdeecamp  
+Our Wechat Program (微信小程序)： OCRdeecamp （因服务器回收，功能暂不可用）  
 <img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/demo.png" width="600" >  
 Reference Paper: Detecting Text in Natural Image with Connectionist Text Proposal Network https://arxiv.org/pdf/1609.03605.pdf  
 Reference Code: https://github.com/YCG09/chinese_ocr (Thanks Yang Chenguang)  
