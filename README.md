@@ -1,11 +1,8 @@
-# ChineseAddress_OCR
-## 环境不可控场景下拍照文档地址文字识别
-Photographing Chinese-Address OCR implemented using CTPN+CTC+Address Correction.   
+## 环境不可控场景下拍照文档地址文字识别  
   
 This is a project of the 2018 Deecamp 25th group (DRPRG). Thanks to my team members!  
 这个是 2018年 Deecamp 25组 (深度受限抠图小组) 的项目，非常非常的感谢每一位队友！  
 
-My contribution: CTPN detection + Wechat app
 我的贡献：CTPN检测部分 + 微信小程序
   
 Our Demo: https://www.bilibili.com/video/av30081208  
@@ -25,7 +22,7 @@ Address Correction: Fuzzy matching based on address library
   
 ## About Code
 demo_final.py  
-You can simpely use demo_final.py for inference. Input a picture and output the Chinese address string.   
+You can simply use demo_final.py for inference. Input a picture and output the Chinese address string.   
 run_flask.py  
 Communicate between server and wechat program using flask  
 ocr_whole.py  
@@ -38,7 +35,7 @@ wechat_program
 Some files of wechat program (微信小程序的一些文件)
 
 ## Results
-In our dataset, the accuracy of exactly correct is 83% ,accuracy of edit distance less than 3 is 97%.   
+In our dataset, the accuracy of exactly correct is 83%, accuracy of edit distance less than 3 is 97%.   
 Our program has a high accuracy at identifying very fuzzy multi-line addresses. 
 
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://github.com/Walleclipse/ChineseAddress_OCR/raw/master/demo/result2.png" width="750" ></div>   
